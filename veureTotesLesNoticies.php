@@ -1,3 +1,6 @@
+
+
+
 <?php
 $db = new SQLite3('diariLocal.db');
 $query = "SELECT * FROM noticies ORDER BY not_data DESC";
